@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int bar() { return 99; }
+int bar() {return 69;}
 
 int foo() { return 42; }
 
@@ -19,9 +19,25 @@ int main() {
   cout << pow(3, 2) << endl;
 
   cout << foo() << endl;
+  // hui
+  // hui
+  // hui
+  // hui
   cout << foo() << endl;
+  // hui
+  // hui
+  // hui
+  // hui
   cout << foo() << endl;
+  // hui
+  // hui
+  // hui
+  // hui
   cout << foo() << endl;
+  // hui
+  // hui
+  // hui
+  // hui
   cout << foo() << endl;
 
   cout << bar() << endl;
