@@ -6,12 +6,13 @@ public class Main {
   static final long c = 11;           // Increment
   static final long m = 1L << 48;     // Modulus
 
+  // this funciton
   static int nextInt(int bound) {
     last = (a * last + c) % m;
     return (int)(last % bound);
   }
 
-  // Insertion Sort
+ /*  Insertion Sort */
   static void insertionSort(int[] arr) {
     int n = arr.length;
     for (int i = 1; i < n; ++i) {
