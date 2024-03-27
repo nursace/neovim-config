@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util
 
 public class Main {
   static long last = 42;
