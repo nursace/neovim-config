@@ -24,12 +24,14 @@ return {
       local lspconfig = require("lspconfig")
 
       lspconfig.lua_ls.setup({})
-      -- lspconfig.clangd.setup({})
-      -- lspconfig.jdtls.setup({})
+      lspconfig.clangd.setup({})
+      lspconfig.jdtls.setup({})
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
       vim.keymap.set({ "n", "v" }, "<space>ca", vim.lsp.buf.code_action, opts)
+
+      vim.diagnostic.config({ signs = false })
     end,
   },
 }
